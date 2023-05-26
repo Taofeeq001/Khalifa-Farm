@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Overpass:wght@200;300;600&family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.style{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sss{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.swipe1{
+    background: url(../Image/artem-beliaikin-Mpm69Pad_-8-unsplash.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.swipe2{
+    background: url(../Image/ben-moreland-auijD19Byq8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.swipe3{
+    background: url(../Image/egor-myznik-WDKEg5sDz0Y-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.swipe4{
+    background: url(../Image/finn-mund-PEzx3drPCrY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.swipe5{
+    background: url(../Image/istockphoto-178815916-1024x1024.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.swipe-content, .invest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 60%;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-left: 20rem;
+    gap: 10px;
+}
+.swipe-content h1, .invest h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(213, 161, 28);
+    text-shadow: 0 8px 8px  black;
+}
+.swipe-content p, .invest p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    backdrop-filter: blur(5px);
+    padding: 50px;
+}
+@media screen and (max-width:950px) {
+    .swipe-content, .invest{
+        padding: 10px;
+        margin-left: 0;
+        margin-top: 4rem;
+        width: 100%;
+    }
+    .swipe-content h1, .invest h1{
+        font-size: 40px;
+    }
+    .swipe-content p, .invest p{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .sss{
+        height: 50vh;
+    }
+
+}
+
+

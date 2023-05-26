@@ -1,0 +1,25 @@
+.testimony{
+    display: flex;
+    width: 90%;
+
+}
+.sim{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(160, 199, 100);
+
+}
+.sim img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 950px) {
+    .testimony{
+        margin-top: 3rem;
+    }
+}
+

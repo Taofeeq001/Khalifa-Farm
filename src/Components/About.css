@@ -1,0 +1,43 @@
+.about-all{
+    width: 100%;
+    padding: 6rem;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.about{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+.about img{
+    height: 400px;
+}
+.about-content ul li{
+    font-size: xx-large;
+    text-align: justify;
+    gap: 20px;
+}
+
+@media screen and (max-width:950px) {
+    .about-all{
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .about{
+        flex-direction: column;
+        width: 100%;
+    }
+    .about img{
+        height: 250px;
+    }
+    .about-content{
+        width: 100%;
+    }
+    .about-content ul li{
+        font-size:medium;
+    }
+}
