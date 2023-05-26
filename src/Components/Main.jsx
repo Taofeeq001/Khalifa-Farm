@@ -1,13 +1,13 @@
 import React from "react"
-// import Header from "./Header";
 import Body from "../Components/Body.jsx";
 import About from "./About";
 import Testimony from "./Testimony";
+import Header from "./Header.jsx";
 
 const Main=()=>{
     return(
         <div>
-            {/* <Header/> */}
+            <Header/>
             <Body />
             <About />
             <Testimony />
