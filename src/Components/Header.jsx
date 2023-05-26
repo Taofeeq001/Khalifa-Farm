@@ -2,8 +2,8 @@ import React, { useState } from "react"
 import "../Components/Header.css"
 import chick from "../Image/logo.png"
 import {Link} from "react-router-dom"
-import {FaHamburger} from "react-icons/fa"
-import {GrClose} from 'react-icons/gr'
+import hamburg from '../Image/hamburger-icon.png'
+import close from '../Image/close.svg'
 
 
 const Header = ()=>{
@@ -24,7 +24,7 @@ const Header = ()=>{
                 </ol>
             </div>
             <button className="hamburger" onClick={handleClick}>
-                {navigation? <GrClose/>:<FaHamburger/>}
+                {navigation? <img  src={close} alt="" /> : <img style={{color:"black"}} src={hamburg} alt="" />}
             </button>
             <div className={`${navigation? "mobile-nav display": "mobile-nav"}`}>
                 <ol>
