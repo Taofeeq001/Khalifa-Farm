@@ -24,7 +24,8 @@ const Header = ()=>{
                 </ol>
             </div>
             <button className="hamburger" onClick={handleClick}>
-                {navigation? <GrClose/>: <RxHamburgerMenu /> }
+            <GrClose/>
+                {/* {navigation? : <RxHamburgerMenu /> } */}
             </button>
             <div className={`${navigation? "mobile-nav display": "mobile-nav"}`}>
                 <ol>
