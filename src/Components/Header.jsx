@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import "../Components/Header.css"
 import chick from "../Image/logo.png"
 import {Link} from "react-router-dom"
-import {GiHamburgerMenu} from "react-icons/gi"
+import {FaHamburger} from "react-icons/fa"
 import {GrClose} from 'react-icons/gr'
 
 
@@ -24,7 +24,7 @@ const Header = ()=>{
                 </ol>
             </div>
             <button className="hamburger" onClick={handleClick}>
-                {navigation? <GrClose/>:<GiHamburgerMenu/>}
+                {navigation? <GrClose/>:<FaHamburger/>}
             </button>
             <div className={`${navigation? "mobile-nav display": "mobile-nav"}`}>
                 <ol>
