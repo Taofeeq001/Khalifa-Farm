@@ -4,8 +4,7 @@ import chick from "../Image/logo.png"
 import {Link} from "react-router-dom"
 import {RxHamburgerMenu} from 'react-icons/rx'
 import {GrClose} from 'react-icons/gr'
-// import open from '../Image/open.svg'
-import close from '../Image/close.svg'
+
 
 const Header = ()=>{
     const [navigation ,setNavigation] = useState(false)
